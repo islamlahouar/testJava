@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.net.URL;
 
+/**
+ * la aussi hot fix 2 ieme commit
+ */
 public class RepoDto {
 
     @JsonProperty("name")
