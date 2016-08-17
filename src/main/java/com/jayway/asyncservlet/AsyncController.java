@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.async.DeferredResult;
 
+/**
+ * la on avait un gros probleme de hot fix
+ */
+
+
 @RestController
 class AsyncController {
     private static final Logger log = LoggerFactory.getLogger(AsyncController.class);
